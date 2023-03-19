@@ -16,10 +16,10 @@ from lib.DS_TransUNet import UNet
 from torch.utils.data import DataLoader, random_split
 from utils.dataloader import get_loader,test_dataset
 
-train_img_dir = "/media/user1/Backup1/Hieu/model_segmentation/dataset/train_CFD/image/"
-train_mask_dir = "/media/user1/Backup1/Hieu/model_segmentation/dataset/train_CFD/GT/"
-val_img_dir = "/media/user1/Backup1/Hieu/model_segmentation/dataset/train_CFD/image/"
-val_mask_dir = "/media/user1/Backup1/Hieu/model_segmentation/dataset/train_CFD/GT/"
+train_img_dir = "./dataset/CFD/image/"
+train_mask_dir = "./dataset/CFD/GT/"
+val_img_dir = "./dataset/CFD/image/"
+val_mask_dir = "./dataset/CFD/GT/"
 # train_img_dir = 'data/Kvasir_SEG/train/image/'
 # train_mask_dir = 'data/Kvasir_SEG/train/mask/'
 # val_img_dir = 'data/Kvasir_SEG/val/images/'
