@@ -1,0 +1,10 @@
+[2023-03-18 21:02:22,313][train_kvasir.py][line:98][INFO] Starting training:
+        Epochs:          1000
+        Batch size:      16
+        Learning rate:   0.001
+        Training size:   118
+        Vailding size:   118
+        Checkpoints:     True
+        Device:          cuda
+        Images size:  256
+    
