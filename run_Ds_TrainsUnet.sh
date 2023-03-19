@@ -2,7 +2,7 @@ git clone https://github.com/Le-Cong-Hieu/DS-TransUNet.git
 
 cd ./DS-TransUNet
 
-mkdr checkpoints
+mkdir checkpoints
 
 wget https://github.com/SwinTransformer/storage/releases/download/v1.0.0/swin_base_patch4_window7_224_22k.pth
 
@@ -12,7 +12,7 @@ mv ./swin_base_patch4_window7_224_22k.pth ./checkpoints
 
 mv ./swin_base_patch4_window7_224_22k.pth ./checkpoints
 
-mkdr dataset 
+mkdir dataset 
 
 gdown --id 1eVBm1Fl_Fsp0CF9qrcWiMmsz1JXnBnu_ --recursive
 
