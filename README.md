@@ -45,6 +45,4 @@ Please consider citing us if you find this work helpful:
 }
 ```
 
-## Questions
-Please drop an email to tianbaoge24@gmail.com
 
