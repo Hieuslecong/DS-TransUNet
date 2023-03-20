@@ -106,7 +106,7 @@ def train_net(net,
 
 
     best_dice = 0
-    size_rates = [384, 512, 640]
+    size_rates = [128,256]
     for epoch in range(epochs):
         net.train()
 
